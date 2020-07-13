@@ -21,7 +21,7 @@ def mssg():
     from email import encoders
     
     fromaddr = "raspberryp087@gmail.com"     #https://www.google.com/settings/security/lesssecureapps
-    toaddr = "zubairmohammed775@gmail.com"
+    toaddr = "shashankshane.demo@gmail.com"
            
     # instance of MIMEMultipart 
     msg = MIMEMultipart() 
@@ -99,7 +99,7 @@ if(username in usernames):
         print("Incorrect Password")
 
 
-    p1_image = face_recognition.load_image_file("sourav.jpg")
+    p1_image = face_recognition.load_image_file("monu.jpg")
     p1_face_encoding = face_recognition.face_encodings(p1_image)[0]
     
     p2_image = face_recognition.load_image_file("karthik.jpg")
@@ -115,7 +115,7 @@ if(username in usernames):
         p2_face_encoding
     ]
     known_face_names = [
-        "sourav",
+        "monu",
         "karthik",
     ]
         
